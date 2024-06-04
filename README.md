@@ -79,7 +79,7 @@ Attention is defined as a set of processes that help people comprehend informati
 
 
 # VRWalking_Dataset
-![Overview of the Maze Navigation Session](MazeFinal.pdf)
+![Overview of the Maze Navigation Session](Mazefinal.png)
 *Figure 1: Overview of the Maze Navigation Session*
 
 We collected the data for our VRWalking dataset while participants navigated virtual mazes via real walking for 15 minutes while concurrently performing multiple cognitive tasks. The purpose of this data collection was to investigate the relationships between cybersickness, working memory, attention, and cognitive load. Figure 1 shows the timeline of the 15 minute session. In the following sections, we provide details of our hypotheses, the virtual environment, the tasks, the study procedure, metrics, and analysis.
