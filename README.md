@@ -366,7 +366,7 @@ The mean accuracy, precision, and recall for 10-fold cross-validation are listed
 
 To further analyze and better understand the performance of the models, we employed SHapley Additive Explanations (SHAP). SHAP is a post-hoc explanation method that ranks the input features. The goal of SHAP is to explain the prediction of a given DL model (e.g., LSTM, GRU, MLP, etc.) for a given set of input samples (e.g., eye and head tracking, HR, etc.). The model architecture for the used DL models is summarized in Table \ref{table:nn-architecture}. Mangalathu et al. emphasize that while complex deep learning models can achieve high accuracy, interpreting them through SHAP analysis poses challenges (Mangalathu et al., 2020). These models often possess intricate internal representations and intricate feature interactions, rendering the provision of clear and easily understandable explanations for model predictions using SHAP a daunting task. That is why we have used some simpler DL models in our classification, and the global explanation done by the SHAP analysis shows us the dominant features for cybersickness classification. We have listed the DL models that achieved the best performance during the classification task in Table \ref{table:modelperformance}. Although during the correlation test, we did not find any significant correlation between HR, GSR, and FMS, from the SHAP analysis, we can see that both HR and GSR were dominant features when predicting Cybersickness. 
 
-![Dominant Features for Cybersickness Classification](cybersickness.png)
+![Dominant Features for Cybersickness Classification](cybsersickness.png)
 
 Figure: Dominant Features for Cybersickness Classification
 ## Cybersickness Classification Discussion
