@@ -282,14 +282,14 @@ To demonstrate potential use cases for our VRWalking dataset, we performed a cas
 
 To support classification, we categorize the FMS values into three categories based on quantiles.
 
-\[
-Class_t =
-\begin{cases}
-  \text{Low,} & \text{if } 0 < X \leq Q_1 \\
-  \text{Medium,} & \text{if } Q_1 < X \leq Q_2 \\
-  \text{High,} & \text{if } X > Q_2 \\
-\end{cases}
-\]
+<div>
+  Class_t =
+  <div style="margin-left: 20px;">
+    <div>Low, if 0 < X ≤ Q₁</div>
+    <div>Medium, if Q₁ < X ≤ Q₂</div>
+    <div>High, if X > Q₂</div>
+  </div>
+</div>
 
 In Equation \ref{eq:classes}, \( X \) represents FMS. The quantiles were set as \( Q_1=2 \) and \( Q_2=3 \).
 
